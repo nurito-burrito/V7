@@ -1,6 +1,8 @@
 {
   "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
     "cypress": "^13.0.0",
-    "cypress-mochawesome-reporter": "^3.5.1"
+    "cypress-mochawesome-reporter": "^3.5.1",
+    "mailslurp-client": "^15.17.2"
   }
 }
