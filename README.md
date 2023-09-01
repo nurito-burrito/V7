@@ -2,6 +2,9 @@
 
 Cypress project with Mailslurp integration to cover e2e testing of user registration by intercepting the registration email link and navigating to the registration flow.
 
+![Kapture 2023-09-01 at 09 15 55](https://github.com/nurito-burrito/V7/assets/44758040/7b42b136-4169-4e30-986c-99196b42de21)
+
+
 ## clone this repo to a local directory
 ```git clone git@github.com:nurito-burrito/V7.git```
 
