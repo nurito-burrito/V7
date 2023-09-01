@@ -1,4 +1,5 @@
 const { defineConfig } = require("cypress");
+require("dotenv").config();
 
 module.exports = defineConfig({
   responseTimeout: 30000,
@@ -25,9 +26,8 @@ module.exports = defineConfig({
     baseUrl: "https://cloud.cypress.io",
   },
   env: {
+    ...process.env,
     mailslurpEmail: "0157ab12-2df2-43fa-bd98-34941db01ebf@mailslurp.biz",
     mailslurpDefaultPassword: "0157ab12-2df2-43fa",
-    MAILSLURP_API_KEY:
-      "d74ffecbe659d57c03144fac306ae7fd7e232b9edb8155936faa74e88bc0ebae",
   },
 });

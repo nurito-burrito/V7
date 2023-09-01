@@ -16,3 +16,5 @@ jobs:
         uses: cypress-io/github-action@v5
         with:
           browser: chrome
+        env:
+          MAILSLURP_API_KEY: ${{ secrets.MAILSLURP_API_KEY }}

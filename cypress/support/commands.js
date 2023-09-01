@@ -1,4 +1,5 @@
 import { MailSlurp } from "mailslurp-client";
+require("dotenv").config();
 
 // read the API Key from environment variable (see the API Key section of README)
 const apiKey = Cypress.env("MAILSLURP_API_KEY");
